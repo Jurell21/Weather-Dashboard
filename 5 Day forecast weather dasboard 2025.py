@@ -3,7 +3,7 @@ import tkinter as tk
 from tkinter import messagebox
 
 # Replace with your actual OpenWeatherMap API key
-API_KEY = "8010e6393085f716e1805a29e6c0555a"
+API_KEY = ""
 
 # API Endpoints
 GEO_URL = "http://api.openweathermap.org/geo/1.0/direct"
@@ -107,3 +107,4 @@ output_text = tk.Text(root, height=20, width=60)
 output_text.grid(row=4, column=0, columnspan=2)
 
 root.mainloop()
+
